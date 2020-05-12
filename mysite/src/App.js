@@ -1,16 +1,28 @@
 import React from 'react';
+import { Link, Route, Switch } from 'react-router-dom';
+
 import './App.css';
 
-import { Link, Route } from 'react-router-dom';
+import MainPage from './components/MainPage';
+import Bio from './components/Bio';
+import CharacterSheet from './components/CharacterSheet';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <div className="Body">
-        <h1 className="Title">Max Webb</h1>
-        <h3 className="Subtitle">Welcome to My Site</h3>
-      </div>
-    </div>
+    <Switch>
+      <Route exact path="/" component={MainPage} />
+      <Route path="/bio" component={Bio} />
+      <Route path="/charactersheet" component={CharacterSheet} />
+      <Route
+        path='/github'
+        component={() => {
+          window.location.href = "https://github.com/webbmaxwell";
+          return null;
+        }}
+      />
+    </Switch>
   );
 }
 
