@@ -1,11 +1,12 @@
 import React from 'react';
-import { Link, Route, Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 
 import './App.css';
 
 import MainPage from './components/MainPage';
 import Bio from './components/Bio';
 import CharacterSheet from './components/CharacterSheet';
+import ExternalRoutes from './components/ExternalRoutes';
 
 
 
@@ -15,13 +16,7 @@ function App() {
       <Route exact path="/" component={MainPage} />
       <Route path="/bio" component={Bio} />
       <Route path="/charactersheet" component={CharacterSheet} />
-      <Route
-        path='/github'
-        component={() => {
-          window.location.href = "https://github.com/webbmaxwell";
-          return null;
-        }}
-      />
+      <ExternalRoutes />
     </Switch>
   );
 }

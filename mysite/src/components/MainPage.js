@@ -1,5 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Links from './Links.js';
+import { Icon } from 'semantic-ui-react';
 
 
 function MainPage() {
@@ -8,7 +9,7 @@ function MainPage() {
       <div className="Body">
         <h1 className="Title">Max Webb</h1>
         <h3 className="Subtitle">Welcome to My Site</h3>
-        <Link to="github">github</Link>
+        <Links />
       </div>
     </div>
   );
