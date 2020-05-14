@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Icon } from 'semantic-ui-react';
 
-function Links() {
+function Icons() {
   return (
     <div>
       <Link to="/github" target="_blank">
@@ -14,11 +14,8 @@ function Links() {
       <Link to="/linkedin" target="_blank">
         <Icon name='linkedin' />
       </Link>
-      <Link to="/charactersheet">
-        <Icon name="d and d" />
-      </Link>
     </div>
   )
 }
 
-export default Links;
+export default Icons;
