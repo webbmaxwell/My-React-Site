@@ -9,14 +9,14 @@ function NavBar() {
   `
 
   return (
-    <div>
-      <NavLink to="/">
+    <div className="Nav-menu">
+      <NavLink className="Nav" to="/">
         <Nav>Home</Nav>
       </NavLink>
-      <NavLink to="/bio">
+      <NavLink className="Nav" to="/bio">
         <Nav>Bio</Nav>
       </NavLink>
-      <NavLink to="/charactersheet">
+      <NavLink className="Nav" to="/charactersheet">
         <Nav>Character Sheet</Nav>
       </NavLink>
     </div>

@@ -6,13 +6,13 @@ function Icons() {
   return (
     <div>
       <Link to="/github" target="_blank">
-        <Icon name='github' />
+        <Icon className="Icon" name='github' />
       </Link>
       <Link to="/facebook" target="_blank">
-        <Icon name='facebook' />
+        <Icon className="Icon" name='facebook' />
       </Link>
       <Link to="/linkedin" target="_blank">
-        <Icon name='linkedin' />
+        <Icon className="Icon" name='linkedin' />
       </Link>
     </div>
   )

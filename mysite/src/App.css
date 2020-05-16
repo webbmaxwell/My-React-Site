@@ -15,6 +15,44 @@
   pointer-events: none;
 }
 
+.Page-title {
+  font-size: 3rem;
+}
+
+.Main-title {
+  font-size: 4rem;
+}
+
+.Subtitle {
+  font-size: 2rem;
+}
+
+.Nav-menu {
+  display: flex;
+  padding-bottom: 3rem;
+}
+
+.Nav {
+  padding: 0 1rem 0 1rem;
+}
+
+.Icon {
+  padding-top: 2rem;
+}
+
+#family-picture {
+
+}
+
+.Subtle {
+
+}
+
+.bio-content {
+  width: 70rem;
+  font-size: 1.5rem;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -32,16 +70,4 @@
   to {
     transform: rotate(360deg);
   }
-}
-
-.Body {
-
-}
-
-.Title {
-
-}
-
-.Subtitle {
-  
 }

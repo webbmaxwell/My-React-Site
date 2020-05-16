@@ -11,8 +11,7 @@ function MainPage() {
         <NavBar />
       </div>
       <div className="Body">
-        <h1 className="Title">Max Webb</h1>
-        <h3 className="Subtitle">Welcome to My Site</h3>
+        <h1 className="Main-title">Max Webb</h1>
         <Icons />
       </div>
     </div>
