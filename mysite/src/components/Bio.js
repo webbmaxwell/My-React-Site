@@ -1,4 +1,6 @@
 import React from 'react';
+import NavBar from './NavBar.js';
+
 
 function Bio() {
   let today = new Date();
@@ -11,9 +13,12 @@ function Bio() {
 
   return (
     <div className="App">
+      <div className="Header">
+        <NavBar />
+      </div>
      <h1 className="Page-title">Bio</h1>
      <img
-      src="../../public/family-picture.jpg"
+      src="./family-picture.jpg"
       alt="Our Happy Family"
       id="family-picture"
      />

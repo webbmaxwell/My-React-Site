@@ -16,11 +16,12 @@ function NavBar() {
       <NavLink className="Nav" to="/bio">
         <Nav>Bio</Nav>
       </NavLink>
-      <NavLink className="Nav" to="/charactersheet">
-        <Nav>Character Sheet</Nav>
-      </NavLink>
     </div>
   )
 };
 
 export default NavBar;
+
+// <NavLink className="Nav" to="/charactersheet">
+//   <Nav>Character Sheet</Nav>
+// </NavLink>
